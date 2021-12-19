@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {}
+
+body {
+    height: 800vh;
+}
+
+.site-logo {
+    width: 150px;
+}
+
+.site-nav{
+    position: absolute;
+    top: 0;
+}
+
+.home{
+    background-image: url("../img/bg-shape.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+.section1-text{
+    line-height: 26px;
+}
+
+.about-section,.section-price{
+    background-color: #7E76F910;
+}
+
+.section1-bg{
+    background-image: url("../img/bg-2.svg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.section-service{
+    background-image: url("../img/bg-3.svg");
+    background-size: 100%;
+    background-position: center
+}
+
+.service-card{
+    border-radius: 35px !important;
+    border: none !important;
+    box-shadow: 0 0.5rem 0.5rem rgb(0 0 0 / 0.05) !important;
+    transition: 0.5s;
+}
+
+.service-card:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 0.15) !important;
+    transform: scale(0.98);
+
+}
+
+.service-card-des{
+    height: 180px;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 2px solid #7E76F9;
+    border-radius: 10px;
+}
+
+.slick-dots li.slick-active{
+    width: 15px ;
+    height: 15px;
+    background-color: #7E76F9;
+}
+
+
+
+/*Responsive*/
+
+@media  screen and (max-width: 576px) {
+    .section1-image,.section1-content-text{
+        width: 100% !important;
+    }
+}
