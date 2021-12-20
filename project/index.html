@@ -5,13 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bootstrap</title>
+    <title>Marketing Landing Page</title>
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="vendor/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="vendor/slick-1.8.1/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="css/style.css" />
 
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 
 
 </head>
@@ -92,11 +98,33 @@
                 </div>
             </div>
         </div>
+        <div class="social-badge">
+            <a href="">
+                <i class="fa fa-facebook"></i>
+            </a>
+
+            <a href="">
+                <i class="fa fa-google"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-twitter"></i>
+            </a>
+
+            <a  class="bg-primary" style="width: 5px;height: 25px"></a>
+        </div>
+
+        <a href="#about
+" class="mouse-function shadow p-4">
+            <img src="img/mouse.svg" class="mouse-img" alt="">
+        </a>
     </section>
 <!--Home Menu end-->
 
 <!--Section -1-->
-    <section class="container-fluid about-section">
+    <section class="container-fluid about-section" id="about">
         <div class="row min-vh-100  align-items-center py-5 py-md-0">
             <div class="col-12 col-md-6 py-3 py-md-5">
                 <div class="text-right mr-5 mr-md-0">
@@ -396,6 +424,158 @@
     </div>
 </section>
 <!--Pricing-Section-End-->
+
+
+<!--Contact-Section-->
+<section class="container-fluid contact-section">
+
+<!--  contact-row-start-->
+    <div class="row">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12">
+                    <div class="my-5 text-center">
+                        <p class="text-secondary">Contact Us</p>
+                        <h4 class="text-uppercase font-weight-bolder">Get In Touch Us...</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3700.6720864737185!2d96.1079032147485!3d21.94715418550811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d77e3a8b5b7%3A0x3d32fb6bc5452fb7!2sYwat%20Hla%20St%2C%20Mandalay!5e0!3m2!1sen!2smm!4v1639982532782!5m2!1sen!2smm" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!--    contact-row-end-->
+
+<!--    link-section-->
+    <div class="row">
+        <footer class="col-12 footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3  mb-5">
+                        <div class="text-white text-center">
+                            <p class="text-uppercase">Stay In Touch</p>
+                            <h1 class="text-uppercase mb-4 font-weight-bolder">Marketing</h1>
+                            <div class="d-flex justify-content-around social-icon">
+                                <a href="">
+                                    <i class="text-white fa fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="text-white fa fa-google-plus"></i>
+                                </a>
+                                <a href="">
+                                    <i class="text-white fa fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="text-white fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3  mb-5">
+                        <div class="text-white ">
+                            <h4 class="text-uppercase mb-4">Quick Links</h4>
+                            <div class="font-weight-light">
+                                <a href="#" class="text-white text-uppercase mb-3">About</a>
+                                <br>
+                                <a href="#" class="text-white text-uppercase mb-3">Home</a>
+                                <br>
+                                <a href="#" class="text-white text-uppercase mb-3">Pricing</a>
+                                <br>
+                                <a href="#" class="text-white text-uppercase mb-3">Location</a>
+                                <br>
+                                <a href="#" class="text-white text-uppercase mb-3">Office</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3  mb-5">
+                        <div class="text-white">
+                            <h4 class="text-uppercase mb-4">Hours</h4>
+                            <div class="font-weight-light">
+                                <table>
+                                    <tr>
+                                        <td style="width: 150px">Monday</td>
+                                        <td>: 9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tuesday</td>
+                                        <td>: 9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday</td>
+                                        <td>: 9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td>: 9:00 - 18:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td>: 9:00 - 18:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3  mb-5 mt-3">
+                        <div class="text-white">
+                            <h4 class="text-uppercase mb-4">Contact</h4>
+                            <div class="font-weight-light">
+                                <a href="#" class="text-white text-uppercase mb-3">
+                                    <i class="fa fa-phone-square fa-fw"></i> 09250152018
+                                </a>
+                                <br>
+                                <a href="#" class="text-white text-uppercase mb-3">
+                                    <i class="fa fa-envelope fa-fw"></i> mms@gmail.com
+                                </a>
+                                <br>
+                                <a href="#" class="text-white text-uppercase mb-3">
+                                    <i class="fa fa-map fa-fw"></i> Pansodan Street, Yangon
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+<!--    link-section-->
+</section>
+<!--Contact-Section-End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="vendor/slick/slick.min.js"></script>
